@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AT_BOT	nxer_bot.py	/^AT_BOT = "<@" + BOT_ID + ">"$/;"	kind:variable	line:8
+BOT_ID	nxer_bot.py	/^BOT_ID = os.environ.get("BOT_ID")$/;"	kind:variable	line:6
+BOT_NAME	print_bot_id.py	/^BOT_NAME = 'nxer'$/;"	kind:variable	line:4
+COMMAND	nxer_bot.py	/^COMMAND = "news"$/;"	kind:variable	line:9
+READ_WEBSOCKET_DELAY	nxer_bot.py	/^    READ_WEBSOCKET_DELAY = 1$/;"	kind:variable	line:53
+SlackClient	nxer_bot.py	/^from slackclient import SlackClient$/;"	kind:namespace	line:4
+SlackClient	print_bot_id.py	/^from slackclient import SlackClient$/;"	kind:namespace	line:2
+api_call	print_bot_id.py	/^    api_call = slack_client.api_call("users.list")$/;"	kind:variable	line:9
+handle_message	nxer_bot.py	/^def handle_message(message, channel):$/;"	kind:function	line:15
+nxer_bot.py	nxer_bot.py	1;"	kind:file	line:1
+os	nxer_bot.py	/^import os$/;"	kind:namespace	line:2
+os	print_bot_id.py	/^import os$/;"	kind:namespace	line:1
+parse_slack_output	nxer_bot.py	/^def parse_slack_output(slack_rtm_output):$/;"	kind:function	line:38
+print_bot_id.py	print_bot_id.py	1;"	kind:file	line:1
+responses	nxer_bot.py	/^responses = []$/;"	kind:variable	line:13
+slack_client	nxer_bot.py	/^slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))$/;"	kind:variable	line:11
+slack_client	print_bot_id.py	/^slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))$/;"	kind:variable	line:6
+time	nxer_bot.py	/^import time$/;"	kind:namespace	line:3
+users	print_bot_id.py	/^        users = api_call.get('members')$/;"	kind:variable	line:11
